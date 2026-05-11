@@ -1,0 +1,13 @@
+# Dependências do Emissor de Certificados - Mercado Central BH
+
+pandas>=2.0.0
+openpyxl>=3.1.0
+docxtpl>=0.16.0
+python-docx>=1.0.0
+docx2pdf>=0.1.8
+qrcode>=7.4.0
+pillow>=10.0.0
+python-dotenv>=1.0.0
+
+# Windows apenas — comunicação com MS Word via COM
+pywin32>=306; sys_platform == 'win32'
